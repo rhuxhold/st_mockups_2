@@ -1,0 +1,28 @@
+body {
+  font-family: Helvetica;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+nav{
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
+
+ul{
+  list-style: none;
+}
+
+.main-logo {
+  width: 66%;
+}
+
+.top-text{
+	padding-top: 20px;
+  display: inline-block;
+  font-size: 18px;
+  width: 1000px;
+  text-align: left;
+  padding-left: 150px;
+  vertical-align: top;
+}

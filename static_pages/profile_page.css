@@ -1,0 +1,57 @@
+body{
+  font-family: Helvetica;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+nav{
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
+
+ul{
+  list-style: none;
+}
+
+.main-logo{
+  width: 25%;
+}
+
+.ailment-name{
+  background-color: royalblue;
+  line-height: 125px;
+  width: 125px;
+  height: 125px;
+  float: left;
+  text-align: center;
+  color: white;
+  border-radius: 80%;
+}
+
+.ailment-reviews{
+	padding: 5px
+}
+
+.favorite-strains{
+	float: left;
+	width: 900;
+}
+.strain-box{
+  display: inline-block;
+  vertical-align: top;
+  width: 75px;
+  font-size: 12px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.strain-type{
+  background-color: lavender;
+  padding: 3px;
+}
+
+.strain-name{
+  background-color: lightgreen;
+  height: 60px;
+  line-height: 50px;
+}

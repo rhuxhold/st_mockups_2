@@ -1,0 +1,101 @@
+body {
+  font-family: Helvetica;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+nav{
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
+
+ul{
+  list-style: none;
+}
+
+.main-logo {
+  width: 25%;
+}
+
+.top-text{
+	padding-top: 20px;
+  display: inline-block;
+  font-size: 18px;
+  width: 1000px;
+  text-align: left;
+  padding-left: 150px;
+  vertical-align: top;
+}
+
+
+.right-column{
+  display: inline-block;
+  width: 795px;
+  margin: 25px;
+}
+
+.strains{
+  padding-left: 0px;
+}
+
+.attribute-name{
+  display: inline-block;
+  background-color: lightgrey;
+  vertical-align: top;
+  text-align: middle;
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.strain-box{
+  display: inline-block;
+  vertical-align: top;
+  text-align: middle;
+  width: 150px;
+  height: 150px;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.strain-type{
+  background-color: lavender;
+  padding: 3px;
+}
+
+.strain-name{
+  background-color: lightgreen;
+  height: 60px;
+  line-height: 50px;
+}
+
+.strain-attributes{
+  float: left;
+  display: inline-block;
+}
+
+.ailment-name{
+  background-color: royalblue;
+  line-height: 125px;
+  float: right;
+  width: 125px;
+  height: 125px;
+  text-align: center;
+  color: white;
+  border-radius: 80%;
+}
+
+.review-module{
+  margin: 15px 10px;
+  margin-left: 100px;
+  display: inline-block;
+}
+
+.review{
+  border: 1px solid black;
+  padding: 3px 5px;
+}

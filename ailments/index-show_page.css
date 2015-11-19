@@ -1,0 +1,48 @@
+body {
+  font-family: Helvetica;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+nav{
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
+
+ul{
+  list-style: none;
+}
+
+.main-logo {
+  width: 25%;
+}
+
+.top-text{
+	padding-top: 10px;
+  display: inline-block;
+  font-size: 16px;
+  width: 1000px;
+  text-align: left;
+  padding-left: 125px;
+  vertical-align: top;
+}
+
+.ailment-landing{
+  display: inline-block;
+  width: 600px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.ailment-name{
+  background-color: royalblue;
+  line-height: 175px;
+  width: 175px;
+  height: 175px;
+  float: left;
+  text-align: center;
+  color: white;
+  border-radius: 100%;
+}
+
+
