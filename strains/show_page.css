@@ -38,6 +38,11 @@ ul{
   padding-left: 0px;
 }
 
+.attributes{
+  float: right;
+  display: inline-block;
+}
+
 .attribute-name{
   display: inline-block;
   background-color: lightgrey;
