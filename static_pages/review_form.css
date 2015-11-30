@@ -1,0 +1,25 @@
+body {
+  font-family: Helvetica;
+  width: 1080px;
+  margin: 0 auto;
+}
+
+nav{
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}
+
+ul{
+  list-style: none;
+}
+
+.main-logo {
+  width: 25%;
+}
+
+.review{
+ line-height: 25px;
+ width: 1000px;
+ font-size: 20px;
+ margin-left: 15px;
+}

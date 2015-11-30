@@ -17,53 +17,34 @@ ul{
   width: 25%;
 }
 
-.top-text{
-	padding-top: 20px;
-  display: inline-block;
-  font-size: 18px;
-  width: 1000px;
-  text-align: left;
-  padding-left: 150px;
-  vertical-align: top;
+.button{
+ line-height: 20px;
+ margin-left: 15px;
 }
-
 
 .right-column{
   display: inline-block;
-  width: 795px;
-  margin: 25px;
-}
-
-.strains{
-  padding-left: 0px;
-}
-
-.attributes{
-  float: right;
-  display: inline-block;
-}
-
-.attribute-name{
-  display: inline-block;
-  background-color: lightgrey;
   vertical-align: top;
-  text-align: middle;
-  width: 40px;
-  height: 40px;
-  font-size: 12px;
-  margin-top: 5px;
-  padding: 10px;
+  width: 680px;
+  margin-left: 20px;
+}
+
+.strain-box1{
+  display: inline-block;
+  vertical-align: top;
+  width: 150px; 
+  line-height: 50px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
 }
 
 .strain-box{
   display: inline-block;
   vertical-align: top;
-  text-align: middle;
-  width: 150px;
-  height: 150px;
-  font-size: 18px;
+  width: 75px;
+  font-size: 12px;
   margin-top: 5px;
-  margin-left: 20px;
   cursor: pointer;
 }
 
@@ -72,35 +53,99 @@ ul{
   padding: 3px;
 }
 
+.strain-type1{
+  background-color: lavender;
+  text-align: center;
+  padding: 3px;
+}
+
+.strain-name1{
+  background-color: lightgreen;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+
 .strain-name{
   background-color: lightgreen;
   height: 60px;
   line-height: 50px;
 }
 
-.strain-attributes{
-  float: left;
-  display: inline-block;
-}
-
 .ailment-name{
   background-color: royalblue;
   line-height: 125px;
-  float: right;
+  vertical-align: top;
   width: 125px;
   height: 125px;
   text-align: center;
+  display: inline-block;
   color: white;
   border-radius: 80%;
 }
 
+.info{
+  border: 1px solid black;
+  display: inline-block;
+  font-size: 12px;
+  margin-top: 5px;
+  /*margin-left: 175px;*/
+  width: 750px;
+  padding: 10px;
+}
+
+.info-1{
+  border: 1px solid black;
+  display: inline-block;
+  margin-top: 5px;
+  margin-left: 184px;
+  width: 750px;
+  padding: 10px;
+}
+
+.attributes{
+  font-size: 20px;
+}
+
+.ailments{
+  padding-left: 100px;
+}
+
+.strain-attributess{
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: lavender;
+}
+.attribute-name{
+  display: inline-block;
+  background-color: lightgrey;
+  text-align: middle;
+  width: 60px;
+  /*height: 40px;*/
+  font-size: 12px;
+  margin-top: 0px;
+  padding: 10px;
+}
+
+.effective-strains{
+  width: 180px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.strains{
+  padding-left: 0px;
+}
+
 .review-module{
   margin: 15px 10px;
-  margin-left: 100px;
+  /*margin-left: 175px;*/
+  width: 850px;    
   display: inline-block;
 }
 
 .review{
   border: 1px solid black;
-  padding: 3px 5px;
+  padding: 1px 3px;
 }
